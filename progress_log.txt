@@ -1,0 +1,39 @@
+Interim 1 (10.3)
+Things added:
+	object Main: the main class and responsible for instantiating all the essential classes and acting as the main way to access other classes
+	class Window: Extends SimpleSwingApplication. Responsible for handling window related stuff
+	class Graphics: Implements the rendering pipeline. Responsible for drawing the map and sprites.
+	class UI: UI is responsible for drawing the User Interface on top of the graphics. It will display the buttons and relevant data
+	object InputHandles: Responsible for handling all the inputs.
+	class Map: Holds all the information about the map grid. Consists of x * y Cell classes
+	class Cell: Data of an individual grid cell
+	class Perlin: Implements perlin noise which is used for random terrain generation
+	classes Game, Placeable, Tower, Enemy and Player: placeholders with little implemented
+	
+The plan was the get the graphics working well before implementing all the gameplay mechanics. I also had the time to program a randomly generated map
+using the Perlin noise algorithm. I'm also implementing my own UI system because I want all the control I can get and I shouldn't have that many 
+different UI Elements that it would become a massive undertaking. I've implemented my UI using the Composite design pattern and my Event system 
+resembles the Observable design patter
+
+The main difficulty is implementing all the classes with future classes in mind. I want to design this well from the start to avoid future headaches.
+I haven't had that much time to work on this project I've only been working for about 15 hours before the first interim. On my project plan I had written
+that I should have a working prototype by now but I don't due to the fact that I have not been working on this project as much as I planned.
+	
+Interim 2 (24.3)
+Haven't worked on the project at all since the last Interim. Not really that worried since I only major feature left is monsters/pathfinding.
+
+Interim 3 (7.4)
+Things added:
+	-Added an implementation for enemies
+	-Added A* pathfinding algorithm for enemies
+	-Added class Spawner
+	-Added an actual game loop
+	-Tower's can attack enemies in range
+	-Enemies move automatically
+	-Added and upgraded UI components
+	-Added fog of war
+	-Refactoring code
+	
+I finally got a playable prototype. You can play trough waves and place towers which attack enemies.
+I'm somewhat behind the plan because of the break but I should be able to finish the game in time since
+I already have a working prototype. Only tests and final touches left. Workload 15h

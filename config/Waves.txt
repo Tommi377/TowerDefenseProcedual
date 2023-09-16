@@ -1,0 +1,117 @@
+// LIST OF WAVES. YOU ARE FREE TO ADD MORE
+// A WAVE IS STRUCTURED LIKE THIS
+//
+// FIRST ADD A WAVE BY TYPING "WAVE"
+// AND THE REWARD FROM THE WAVE AFTER IT
+// WAVES ARE EXECUTED IN ORDER FROM TOP TO BOTTOM
+//
+// THEN YOU NEED TO ADD SPAWNERS BY TYPING "SPAWNER"
+// AND THE SPAWNER ORDER DELAY AFTER IT
+// EACH WAVE CAN HAVE AS MANY SPAWNERS AS YOU COMPUTER CAN HANDLE
+// 
+// THEN YOU NEED TO ADD ORDERS TO THE SPAWNER
+// THE ORDERS ARE EXECUTED IN ORDER FROM TOP TO BOTTOM
+// A ORDER CONSISTS OF THE NAME AND THE AMOUNT
+// THE NAME HAS TO MATCH WITH AN ENEMY DEFINED IN THE
+// ENEMY FILE. AMOUNT TELLS THE SPAWNER HOW MANY TO SPAWN
+
+WAVE 50
+	SPAWNER 20
+		basic 8
+
+WAVE 50
+	SPAWNER 20
+		basic 12
+		fast 3
+WAVE 50
+	SPAWNER 20
+		basic 15
+		fast 5
+		medium 5
+
+WAVE 60
+	SPAWNER 20
+		basic 5
+		fast 5
+		medium 5
+	SPAWNER 20
+		basic 5
+		fast 5
+		medium 5
+
+
+WAVE 60
+	SPAWNER 20
+		basic 10
+		fast 5
+		medium 7
+	SPAWNER 20
+		fast 10
+		basic 5
+		medium 7
+
+WAVE 70
+	SPAWNER 20
+		basic 5
+		fast 5
+		medium 5
+	SPAWNER 20
+		basic 5
+		fast 5
+		medium 5
+	SPAWNER 20
+		basic 5
+		fast 5
+		medium 5
+
+WAVE 80
+	SPAWNER 20
+		basic 5
+		fast 5
+		medium 5
+	SPAWNER 20
+		basic 5
+		fast 5
+		medium 5
+	SPAWNER 20
+		basic 5
+		fast 5
+		medium 5
+	SPAWNER 20
+		basic 5
+		fast 5
+		medium 5
+
+WAVE 100
+	SPAWNER 20
+		basic 5
+		fast 5
+		medium 5
+	SPAWNER 20
+		basic 5
+		fast 5
+		medium 5
+	SPAWNER 20
+		basic 5
+		fast 5
+		medium 5
+	SPAWNER 20
+		basic 5
+		fast 5
+		medium 5
+	SPAWNER 20
+		basic 5
+		fast 5
+		medium 5
+	SPAWNER 20
+		basic 5
+		fast 5
+		medium 5
+	SPAWNER 20
+		basic 5
+		fast 5
+		medium 5
+	SPAWNER 20
+		basic 5
+		fast 5
+		medium 5

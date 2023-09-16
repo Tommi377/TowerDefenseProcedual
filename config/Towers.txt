@@ -1,0 +1,95 @@
+// LIST OF TOWERS. YOU ARE FREE TO ADD MORE
+// CREATE A NEW TOWER BY WRITING "TOWER"
+// AND CLOSE IT WITH "END" AFTER ADDING
+// ALL THE PARAMETERS
+//
+// A TOWER MUST HAVE THE FOLLOWING PARAMETERS
+// Name: 		NAM name		name of the tower, spaces are allowed
+// Color: 		CLR R G B		color of tower, values should range from 0 to 255
+// Price:		PRC V			price of tower
+// Size:		SIZ V			radius of tower in pixels, values below 3 results in undefined behaviour
+// Range:		RNG V			radius of range in pixels
+// Damage:		DMG V			damage dealt per shot
+// Firerate:	FIR V			number of frames between shots
+//
+// TOWERS ARE SHOWN FROM TOP TO BOTTOM IN THE BUY MENU
+    
+TOWER
+	NAM Small Tower
+	CLR 255 127 0
+	PRC 100
+	SIZ 4
+	RNG 16
+	DMG 5
+	FIR 10
+END
+    
+TOWER
+	NAM Medium Tower
+	CLR 255 255 0
+	PRC 200
+	SIZ 6
+	RNG 28
+	DMG 14
+	FIR 13
+END
+    
+TOWER
+	NAM Large Tower
+	CLR 255 0 255
+	PRC 300
+	SIZ 8
+	RNG 32
+	DMG 30
+	FIR 15
+END
+    
+TOWER
+	NAM BFG Tower
+	CLR 200 200 200
+	PRC 530
+	SIZ 12
+	RNG 32
+	DMG 500
+	FIR 150
+END
+    
+TOWER
+	NAM Sniper Tower
+	CLR 255 0 0
+	PRC 250
+	SIZ 3
+	RNG 0
+	DMG 45
+	FIR 40
+END
+    
+TOWER
+	NAM Rapid Fire Tower
+	CLR 139 69 19
+	PRC 315
+	SIZ 6
+	RNG 22
+	DMG 9
+	FIR 4
+END
+    
+TOWER
+	NAM Small Laser
+	CLR 255 0 255
+	PRC 220
+	SIZ 5
+	RNG 20
+	DMG 1
+	FIR 0
+END
+    
+TOWER
+	NAM Big Laser
+	CLR 100 0 100
+	PRC 550
+	SIZ 7
+	RNG 25
+	DMG 3
+	FIR 0
+END
